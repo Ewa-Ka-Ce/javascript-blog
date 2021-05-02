@@ -103,9 +103,11 @@ body {
 
 .post {
   display: none;
-  &.active {
-    display: block;
+ 
   }
+
+.post.active {
+  display: block;
 }
 
 .post-author {
