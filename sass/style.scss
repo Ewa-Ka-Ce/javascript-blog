@@ -101,20 +101,62 @@ body {
 
 /* Post */
 
-.post {
-  display: none;
-  &.active {
-    display: block;
-  }
-}
- 
-.post-author {
-  font-style: italic;
-}
 
 .post-tags {
   display: flex;
   p {
     margin: 0 10px 0 0;
   }
+}
+
+.post {
+  display: none;
+}
+
+.post.active {
+  display: block;
+}
+
+.post-author {
+  font-style: italic;
+}
+
+.post-tags {
+  display: flex;
+}
+
+.post-tags p {
+  margin: 0 10px 0 0;
+}
+/* Tags */
+
+.tag-size-1 {
+  font-size: 10px;
+  color: #1e3799;
+}
+
+.tag-size-2 {
+  font-size: 14px;
+  color: #3c6382;
+}
+
+.tag-size-3 {
+  font-size: 20px;
+  color: #38ada9;
+}
+
+.tag-size-4 {
+  font-size: 28px;
+  color: #eb2f06;
+}
+
+.tag-size-5 {
+  font-size: 36px;
+  color: #b71540;
+}
+
+
+.tags li {
+  display: inline-block;
+  margin-right: 5px;
 }
